@@ -1,0 +1,30 @@
+.link1 {
+    color: rgb(5, 5, 5);
+    justify-content: center;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 15px; 
+    
+    
+}
+.link1:hover {
+    background-color: rgb(95, 91, 91);
+}
+
+body {
+    margin: 0;
+
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+
+}
+.mm {
+    background-color: rgb(136, 132, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+}

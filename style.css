@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+
+}
+
+.logo {
+    background-color: rgb(136, 132, 132);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.btn {
+    color: rgb(0, 0, 0);   
+    background-color: rgb(209, 198, 198);
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 30px 0px;
+    border: none;
+}
+
+.link {
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.link5 {
+    color: black;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.link:hover {
+    background-color: rgb(95, 91, 91);
+}
+
+
+.btn:hover {
+    background-color: rgb(182, 178, 178);
+}
+
+.landing-page {
+    background-color: rgb(136, 132, 132);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    color: white;
+    border-radius: 0 0 50px 50px;
+}
+.landing-page span 
+{
+text-decoration: underline wavy rgb(100, 82, 82);
+}
+
+.search input {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 0 20px;
+
+
+}
+
+.search button {
+    position: absolute;
+    left: 209px;
+    height: 30px;
+}
+
+.img img {
+    border-radius: 20px;
+}
+
+.trending-container {
+    padding: 25px 50px;
+}
+
+.reanding-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reanding-header h1 {
+    margin-top: 0;
+}
+
+.trending-container span {
+    color: #ee626b;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px;
+    align-items: center;
+
+}
+
+.card-info img {
+    width: 60px;
+}
+
+.card {
+    height: 240px;
+    width: 380px;
+    background-color: #979393;
+    border-radius: 20px;
+}
+.card:hover
+{
+    height: 260px;
+    width: 380px;
+    background-color: #979393;
+    border-radius: 20px;
+       transition-property: background-image;
+    transition-duration: 2s;
+}
+
+.card .thumb {
+    border-radius: 20px 20px 0 0;
+}
+
+.trending-cards {
+    display: flex;
+    gap: 12px;
+}
+
